@@ -24,7 +24,7 @@ jobs:
       - name: Check types
         run: yarn types:check
       - name: Build
-        run: yarn build:chrome
+        run: yarn dist:chrome
       - name: Create artifact
         uses: actions/upload-artifact@v4
         with:
