@@ -154,7 +154,7 @@ window.Encode.CharCode = {
   },
 }
 
-window.Encode.atob = {
+window.Encode.AtobHelper = {
   encode: value => `atob('${btoa(value)}')`,
 }
 
