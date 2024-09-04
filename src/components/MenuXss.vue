@@ -117,6 +117,7 @@
           />
         </VList>
       </VMenu>
+      <VListItem title="atob() helper" @click="applyFunction('Encode.atob')" />
       <VMenu location="end" open-on-hover>
         <template #activator="{ props }">
           <VListItem

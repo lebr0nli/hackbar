@@ -154,6 +154,10 @@ window.Encode.CharCode = {
   },
 }
 
+window.Encode.atob = {
+  encode: value => `atob('${btoa(value)}')`,
+}
+
 window.Encode.Escape = {
   hex: value => {
     return [...value]
