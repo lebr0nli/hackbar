@@ -25,3 +25,8 @@ jobs:
         run: yarn types:check
       - name: Build
         run: yarn build:chrome
+      - name: Create artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: HackBar-chrome
+          path: HackBar-chrome.zip
